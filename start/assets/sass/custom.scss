@@ -1,0 +1,14 @@
+@import "start/assets/css/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import "_functions";
+
+
+    /*NAV*/
+span:nth-child(1){
+    color: #5e9693;
+    font-size: 2rem;
+}
+span:nth-child(2){
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}

@@ -1,0 +1,28 @@
+// INSERISCI "TRUE" PER LA DARK-MODE //
+
+$dark_mode: "false";
+
+//ISTRUZIONI: INSERIRE "true", dopodichè salvare entrambi i file .scss //
+
+//NON E' IMPLEMENTATA SUL SITO CON UNA CHECKBOX PERCHE' NON RIUSCIVO A FARLA FUNZIONARE//
+@if $dark_mode == "true" {
+    nav{
+        background-color: rgb(87, 87, 87);
+    }
+    body{
+        background-color: rgb(34, 34, 34) !important;
+    }
+    .card-body{
+        background-color: rgb(34, 34, 34);
+    }
+    h2, h3, h1, h5, p, a{
+        color: #fff !important;
+    }
+}
+
+@else{
+    nav{
+        background-color: #fff;
+    }}
+
+
